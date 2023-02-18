@@ -1,0 +1,67 @@
+.login {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.login form {
+  padding: 50px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.login form img {
+  width: 80%;
+}
+
+.login div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  height: 100vh;
+  padding-right: 20px;
+}
+
+.login div img {
+  border-radius: 20px;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 850px) {
+  .login {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/solar_energy.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .login form {
+    width: 80%;
+    min-width: 300px;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+  }
+
+  .login form img {
+    width: 100%;
+    min-width: 280px;
+    max-width: 400px;
+  }
+
+  .login div {
+    display: none;
+  }
+}

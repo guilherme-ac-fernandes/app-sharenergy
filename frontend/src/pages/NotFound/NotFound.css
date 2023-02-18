@@ -1,0 +1,13 @@
+.not-found-container {
+  margin-top: calc(var(--fixed-height) + 20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+.not-found-image {
+  padding: 20px;
+  width: 300px;
+}

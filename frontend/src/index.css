@@ -1,0 +1,10 @@
+:root {
+  --hue: 196;
+  --background: #c4c4cc;
+  --light-gray: #f3f3f3;
+  --primary-color: hsl(var(--hue), 100%, 26%);
+  --button-color: hsl(calc(var(--hue) - 30), 100%, 26%);
+  --button-disable-color: #7c7c8a;
+  --white: hsl(0, 0%, 100%);
+  --fixed-height: 5rem;
+}

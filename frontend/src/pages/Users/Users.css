@@ -1,0 +1,31 @@
+.users-crud-container {
+  margin-top: calc(var(--fixed-height) + 60px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.users-crud-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 10px;
+}
+
+.users-crud-container form {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  min-width: 320px;
+  gap: 10px;
+}
+
+.aside-form-crud-user {
+  margin-top: 10px;
+}

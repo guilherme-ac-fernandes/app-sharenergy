@@ -1,0 +1,21 @@
+.header {
+  position: absolute;
+  top: 0;
+  height: var(--fixed-height);
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 10%;
+  align-items: center;
+  background-color: var(--primary-color);
+  width: 100vw;
+}
+
+.header a {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  .header img {
+    width: 200px;
+  }
+}

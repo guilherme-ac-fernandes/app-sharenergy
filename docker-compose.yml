@@ -1,0 +1,39 @@
+version: '3.9'
+services:
+
+  frontend:
+      container_name: guilherme-fernandes_frontend
+      build: ./frontend
+      ports:
+        - 3000:3000
+      platform: linux/x86_64
+      working_dir: /app-frontend
+      volumes:
+        - ./frontend:/app-frontend
+      depends_on:
+        - backend
+
+  backend:
+    container_name: guilherme-fernandes_backend
+    build: ./backend
+    ports:
+      - 3001:3001
+    platform: linux/x86_64
+    working_dir: /app-backend
+    volumes:
+      - ./backend:/app-backend
+    depends_on:
+      - mongodb
+    environment:
+      - MONGO_URI=mongodb://guilherme-fernandes_mongodb:27017/sharenergy_crud
+
+  mongodb:
+    image: mongo
+    container_name: guilherme-fernandes_mongodb
+    volumes:
+      - ./:/var/micro-data/mongodb/data/db
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_DATABASE=sharenergy_crud

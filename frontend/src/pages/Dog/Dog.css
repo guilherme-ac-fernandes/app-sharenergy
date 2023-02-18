@@ -1,0 +1,24 @@
+.dog-container {
+  margin-top: calc(var(--fixed-height) + 20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+.dog-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dog {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  max-width: 500px;
+  max-height: 500px;
+}

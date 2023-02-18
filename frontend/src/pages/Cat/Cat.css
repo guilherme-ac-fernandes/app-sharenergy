@@ -1,0 +1,32 @@
+.cat-section {
+  margin-top: calc(var(--fixed-height) + 20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+.cat-section form {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.status-form {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+.status-form input {
+  width: 60px;
+}
+
+.cat {
+  object-fit: cover;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 60%;
+  max-height: 60%;
+}

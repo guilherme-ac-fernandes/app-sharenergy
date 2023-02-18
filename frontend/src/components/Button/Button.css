@@ -1,0 +1,23 @@
+.buttonContainer {
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  opacity: 0.8;
+  font-size: 1rem;
+  max-width: 100%;
+  min-width: 100px;
+}
+
+.buttonContainer:hover {
+  opacity: 1;
+}
+
+.buttonContainer:disabled {
+  background-color: var(--button-disable-color);
+  cursor: not-allowed;
+
+}

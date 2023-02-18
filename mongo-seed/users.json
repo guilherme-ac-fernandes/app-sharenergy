@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Harry Potter",
+    "email": "harry_potter@wizard.com",
+    "phoneNumber": "(31) 989898987",
+    "address": "4 Privet Drive, Little Whinging, Surrey",
+    "cpf": 56798723422
+  },
+  {
+    "name": "Ronald Weasley",
+    "email": "w-ronald@wizard.com",
+    "phoneNumber": "(31) 945496788",
+    "address": "The Burrow, Ottery Catchpole, Devon",
+    "cpf": 90545683294
+  },
+  {
+    "name": "Hermione Granger",
+    "email": "hermione@wizard.com",
+    "phoneNumber": "(31) 977853700",
+    "address": "8 Heathgate, Hampstead Garden Suburb, London",
+    "cpf": 67563917642
+  },
+  {
+    "name": "Luna Lovegood",
+    "email": "llove-good@wizard.com",
+    "phoneNumber": "(31) 954800800",
+    "address": "Ottery St Catchpole, Devon, England, Great Britain",
+    "cpf": 55673353212
+  }
+]

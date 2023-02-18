@@ -1,0 +1,42 @@
+.random-user-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: var(--light-gray);
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+  margin-block: 20px;
+  border: solid 2px var(--primary-color);
+}
+
+.random-user-card-container img {
+  width: 120px;
+  margin: 10px;
+}
+
+.random-user-card-container-info {
+  font-size: 1rem;
+  text-align: center;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.random-user-card-container-info-fullname {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.random-user-card-container-info a p {
+  color: var(--button-color);
+  font-size: 1rem;
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

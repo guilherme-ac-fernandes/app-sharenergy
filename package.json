@@ -1,0 +1,25 @@
+{
+  "name": "guilherme-fernandesdesafio-sharenergy",
+  "version": "1.0.0",
+  "description": "Aplicação FullStack do Desafio Sharenergy 2023/01.",
+  "main": "",
+  "scripts": {
+    "compose:up": "docker-compose up -d --build",
+    "compose:down": "docker-compose down",
+    "compose:up:seed": "docker-compose -f docker-compose.seed.yml up -d --build",
+    "compose:down:seed": "docker-compose -f docker-compose.seed.yml down",
+    "front:acess": "docker exec -it guilherme-fernandes_frontend /bin/sh",
+    "back:acess": "docker exec -it guilherme-fernandes_backend /bin/sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilherme-ac-fernandes/desafio-sharenergy.git"
+  },
+  "keywords": [],
+  "author": "Guilherme Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilherme-ac-fernandes/desafio-sharenergy/issues"
+  },
+  "homepage": "https://github.com/guilherme-ac-fernandes/desafio-sharenergy#readme"
+}
