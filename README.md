@@ -9,16 +9,17 @@
 
 Consiste em uma aplicação full-stack dockerizada capaz de realizar a comunicação com API's distintas e um backend contendo um CRUD de usuários.
 
-#### Link apresentação: [Youtube](https://youtu.be/K_lONrXWTVw)
-
 <br />
 
 ### FrontEnd:
 * Construído com React, React Hooks, Typescript, React-Icons, CSS e Docker
 * Testes de integração com Jest e React Testing Library
 
-Username: desafiosharenergy
-Password: sh@r3n3rgy
+Para realizar o login na aplicação, colocar as seguintes informações:
+
+| `username` | `desafiosharenergy` |
+|---|---|
+| `password` | `sh@r3n3rgy` |
 
 <br />
 <details>
